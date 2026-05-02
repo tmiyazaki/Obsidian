@@ -13,6 +13,7 @@
 | `30-Interface/` | コードとデザインを統合する設計 | [[30-Interface/Interface-Index]] |
 | `40-Bridge/` | 領域横断のテーマ | [[40-Bridge/Bridge-Index]] |
 | `Templates/` | 新規ノート作成用のテンプレート | [[Templates/Skill-Template]] |
+| `GLOSSARY.md` | 用語集 (3 領域共通の語彙) | [[GLOSSARY]] |
 
 ## 使い方
 

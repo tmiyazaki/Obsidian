@@ -15,22 +15,27 @@ domain: interface
 
 ## ノート
 
-### 原則
+### 原則と理解
 
 - [[UX-Principles|UX の基本原則]] — Norman・Nielsen 由来の指針
+- [[Mental-Models|メンタルモデルと認知負荷]] — ユーザーの頭の中の地図 ✨
 - [[Accessibility|アクセシビリティ]] — WCAG / ARIA / 実装の基本
 - [[Information-Architecture|情報アーキテクチャ]] — 構造化と命名
+- [[User-Research|ユーザーリサーチ]] — 仮説を検証する活動 ✨
 
 ### 振る舞い
 
 - [[Interaction-Patterns|インタラクションパターン]] — 標準解の語彙
 - [[Microinteractions|マイクロインタラクション]] — 小さな反応が体験を作る
 - [[Forms-and-Input|フォームと入力]] — 最も触られる UI
+- [[Loading-States|ローディング状態]] — 待ち時間も UI
+- [[Onboarding-Empty-States|オンボーディングと空状態]] — 最初の 5 分で離脱が決まる ✨
 
-### 環境適応
+### 環境と言葉
 
 - [[Responsive-Design|レスポンシブデザイン]] — デバイスを超えて成り立つ設計
-- [[Loading-States|ローディング状態]] — 待ち時間も UI
+- [[Mobile-Patterns|モバイル固有パターン]] — 親指・OS 慣習・ジェスチャ ✨
+- [[UX-Writing|UX ライティング]] — UI に出る言葉の設計 ✨
 
 ## 三領域の関係
 
@@ -48,6 +53,8 @@ Coding が                Design が
 ## 関連
 
 - [[../00-Index/MOC|MOC]]
+- [[../GLOSSARY|用語集]]
 - [[../10-Coding/Coding-Index]]
 - [[../20-Design/Design-Index]]
 - [[../40-Bridge/Component-Driven-Development]]
+- [[../40-Bridge/Ethical-Design]]

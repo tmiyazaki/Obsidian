@@ -25,7 +25,9 @@ domain: coding
 
 - [[Design-Patterns]] — 繰り返し現れる解の語彙
 - [[Architecture-Layers]] — 関心の分離と依存方向
+- [[API-Design]] — 他者が頼って動く契約 ✨
 - [[Error-Handling]] — 失敗を一級市民として扱う
+- [[State-Management]] — 状態の所在と真実を設計する ✨
 
 ### 改善サイクル
 
@@ -36,6 +38,8 @@ domain: coding
 ### 運用
 
 - [[Performance]] — 計測してから最適化
+- [[Security]] — 機能の質としてのセキュリティ ✨
+- [[Observability]] — 内部状態を外側から推論可能に ✨
 - [[Version-Control]] — 履歴は設計判断の証跡
 
 ## アンチパターン早見
@@ -47,8 +51,14 @@ domain: coding
 | バグを直すと別が壊れる | テスト不足 | [[Testing-Strategy]] |
 | 何のコードか読めない | 命名の劣化 | [[Naming]] |
 | 例外で握りつぶされる | エラー設計の欠落 | [[Error-Handling]] |
+| 本番で何が起きてるか分からない | 観測性の欠落 | [[Observability]] |
+| API 変更で全クライアントが壊れる | 後方互換性の軽視 | [[API-Design]] |
+| useState が画面に 20 個 | 状態管理の戦略不在 | [[State-Management]] |
+| 認可がフロントだけ | サーバー側検証なし | [[Security]] |
 
 ## 関連
 
 - [[../00-Index/MOC|MOC]]
+- [[../GLOSSARY|用語集]]
 - [[../40-Bridge/Naming-as-Design|名前付けという設計]]
+- [[../40-Bridge/Documentation-as-Product|プロダクトとしてのドキュメンテーション]]
