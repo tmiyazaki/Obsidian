@@ -51,6 +51,15 @@ domain: interface
 - [[Mobile-Patterns|モバイル固有パターン]] — 親指・OS 慣習・ジェスチャ
 - [[UX-Writing|UX ライティング]] — UI に出る言葉の設計
 
+### 表現の幅を広げる
+
+- [[Motion-Storytelling|モーションストーリーテリング]] — Scrollytelling / Page Transitions ✨
+- [[Scroll-Driven-Animations|スクロール駆動アニメーション]] — ユーザーが速度を握る ✨
+- [[Drawing-Direct-Manipulation|描画と直接操作]] — Drag / Pen / Canvas Editing ✨
+- [[Audio-Voice-UX|音声・サウンド UX]] — 耳の次元を加える ✨
+- [[Sensor-Camera-Haptics|センサー・カメラ・触覚]] — 端末を物理デバイスとして ✨
+- [[AR-VR-Spatial|AR / VR / 空間 UI]] — 画面の枠を超える ✨
+
 ## 三領域の関係
 
 ```

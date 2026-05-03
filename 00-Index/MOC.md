@@ -76,7 +76,15 @@ aliases: [Map of Content, 全体地図]
 - [[20-Design/Motion-System|モーションシステム]]
 - [[20-Design/Dark-Mode|ダークモード]]
 - [[20-Design/Data-Visualization|データビジュアライゼーション]]
-- [[20-Design/Brand-Voice|ブランドアイデンティティ]] ✨
+- [[20-Design/Brand-Voice|ブランドアイデンティティ]]
+
+### 表現の幅 (Expressive Range) ✨
+
+- [[20-Design/Creative-Coding-Canvas-WebGL|クリエイティブコーディング]] — Canvas/WebGL/Three.js
+- [[20-Design/Generative-Procedural|生成的・手続き型デザイン]]
+- [[20-Design/Editorial-Expressive-Layouts|編集的・表現的レイアウト]]
+- [[20-Design/Material-Surfaces|マテリアルとサーフェス]] — Glass/Gradient/Noise
+- [[20-Design/Variable-Type-Expression|可変フォントによるタイポ表現]]
 
 ## 3. インターフェース設計 (Interface Design)
 
@@ -118,6 +126,15 @@ aliases: [Map of Content, 全体地図]
 - [[30-Interface/Mobile-Patterns|モバイル固有パターン]]
 - [[30-Interface/UX-Writing|UX ライティング]]
 
+### 表現の幅 (Expressive Range) ✨
+
+- [[30-Interface/Motion-Storytelling|モーションストーリーテリング]]
+- [[30-Interface/Scroll-Driven-Animations|スクロール駆動アニメーション]]
+- [[30-Interface/Drawing-Direct-Manipulation|描画と直接操作]]
+- [[30-Interface/Audio-Voice-UX|音声・サウンド UX]]
+- [[30-Interface/Sensor-Camera-Haptics|センサー・カメラ・触覚]]
+- [[30-Interface/AR-VR-Spatial|AR / VR / 空間 UI]]
+
 ## 4. 橋渡し (Bridge)
 
 3 領域を貫く実践テーマ。
@@ -143,8 +160,12 @@ aliases: [Map of Content, 全体地図]
 
 ### 戦略と進化
 
-- [[40-Bridge/Tech-Debt|技術的負債のマネジメント]] ✨
-- [[40-Bridge/Migrations-as-Product|プロダクトとしてのマイグレーション]] ✨
+- [[40-Bridge/Tech-Debt|技術的負債のマネジメント]]
+- [[40-Bridge/Migrations-as-Product|プロダクトとしてのマイグレーション]]
+
+### 表現の幅 (Expressive Range) ✨
+
+- [[40-Bridge/Tool-Stacks-Recipes|ツールスタックの組み合わせレシピ集]]
 
 ## 学習の動線(推奨)
 
@@ -200,6 +221,10 @@ Performance-as-UX → Internationalization → Ethical-Design
 | **アクセシビリティ** | [[30-Interface/Accessibility]] / [[40-Bridge/Inclusive-Design]] / [[20-Design/Color-Theory]] / [[30-Interface/Mobile-Patterns]] / [[20-Design/Motion-System]] |
 | **長期進化** | [[40-Bridge/Tech-Debt]] / [[40-Bridge/Migrations-as-Product]] / [[40-Bridge/Documentation-as-Product]] / [[10-Coding/CI-CD]] / [[40-Bridge/Critique-Culture]] |
 | **持続可能性と倫理** | [[40-Bridge/Sustainability]] / [[40-Bridge/Ethical-Design]] / [[40-Bridge/Inclusive-Design]] / [[40-Bridge/Performance-as-UX]] |
+| **表現の差別化 (LP・ヒーロー)** | [[20-Design/Creative-Coding-Canvas-WebGL]] / [[20-Design/Editorial-Expressive-Layouts]] / [[30-Interface/Motion-Storytelling]] / [[20-Design/Variable-Type-Expression]] / [[20-Design/Material-Surfaces]] |
+| **没入型・空間・センサー** | [[30-Interface/AR-VR-Spatial]] / [[30-Interface/Sensor-Camera-Haptics]] / [[30-Interface/Audio-Voice-UX]] / [[20-Design/Creative-Coding-Canvas-WebGL]] |
+| **クリエイティブツール (Figma 級)** | [[30-Interface/Drawing-Direct-Manipulation]] / [[30-Interface/Real-time-Collaboration]] / [[40-Bridge/Tool-Stacks-Recipes]] / [[10-Coding/State-Management]] |
+| **モダンスタック構築** | [[40-Bridge/Tool-Stacks-Recipes]] / [[40-Bridge/Component-Driven-Development]] / [[20-Design/Design-Tokens]] / [[10-Coding/CI-CD]] |
 
 ## 関連
 
