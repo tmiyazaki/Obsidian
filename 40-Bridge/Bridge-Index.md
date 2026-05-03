@@ -9,21 +9,29 @@ domain: cross-cutting
 
 ## ノート
 
-### 協働
+### 協働とプロセス
 
 - [[Component-Driven-Development|コンポーネント駆動開発 (CDD)]] — 部品としての UI
 - [[Design-Code-Handoff|デザインとコードの受け渡し]] — 摩擦を最小化する協働
-- [[Documentation-as-Product|プロダクトとしてのドキュメンテーション]] — ドキュメントも UI ✨
+- [[Documentation-as-Product|プロダクトとしてのドキュメンテーション]] — ドキュメントも UI
+- [[Critique-Culture|批評文化とフィードバック]] — 良いプロダクトは良い対話から ✨
 
 ### 言語と意味
 
 - [[Naming-as-Design|名前付けという設計]] — IA・コード・コンポーネントを貫く名前
-- [[Internationalization|国際化と地域化]] — 翻訳可能な形で書く ✨
+- [[Internationalization|国際化と地域化]] — 翻訳可能な形で書く
+- [[Inclusive-Design|インクルーシブデザイン]] — 多様性を設計の入力にする ✨
 
 ### 体験の質
 
 - [[Performance-as-UX|パフォーマンスという UX]] — 速さは体験そのもの
-- [[Ethical-Design|倫理的デザイン]] — できるとしてよいは別 ✨
+- [[Ethical-Design|倫理的デザイン]] — できるとしてよいは別
+- [[Sustainability|サステナビリティ]] — エネルギー効率も品質指標 ✨
+
+### 戦略と進化
+
+- [[Tech-Debt|技術的負債のマネジメント]] — 借りていることを認識し戦略的に返す ✨
+- [[Migrations-as-Product|プロダクトとしてのマイグレーション]] — 進化能力そのもの ✨
 
 ## 共通の問い
 
