@@ -32,10 +32,17 @@ domain: cross-cutting
 
 - [[Tech-Debt|技術的負債のマネジメント]] — 借りていることを認識し戦略的に返す
 - [[Migrations-as-Product|プロダクトとしてのマイグレーション]] — 進化能力そのもの
+- [[Discovery-and-Validation|プロダクトディスカバリと検証]] — 何を作るか ✨
+- [[Roadmapping-Prioritization|ロードマッピングと優先順位付け]] — 学習計画としてのロードマップ ✨
+- [[Knowledge-Management|知識マネジメント]] — 個人 / チーム / 組織 ✨
+
+### 体験の質 (深化)
+
+- [[Privacy-by-Design|プライバシー・バイ・デザイン]] — データ最小化と透明性 ✨
 
 ### 表現の幅を広げる
 
-- [[Tool-Stacks-Recipes|ツールスタックの組み合わせレシピ集]] — 互いに補完するツール群 ✨
+- [[Tool-Stacks-Recipes|ツールスタックの組み合わせレシピ集]] — 互いに補完するツール群
 
 ## 共通の問い
 

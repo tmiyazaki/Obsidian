@@ -18,6 +18,7 @@ aliases: [用語集]
 - **Affordance (アフォーダンス)**: 物理的にできること。「ボタンは押せる」など。
 - **Aha! Moment**: ユーザーが**初めて**価値を体感する瞬間。オンボーディング設計の中心。 → [[30-Interface/Onboarding-Empty-States]]
 - **AI/LLM Interface**: 確率的・遅い・誤るエージェントを信頼可能に翻訳する設計。 → [[30-Interface/AI-LLM-Interfaces]]
+- **Aggregate (集約)**: ドメイン内で一貫した変更単位。 → [[10-Coding/Type-Systems-and-DDD]]
 - **AR / VR / XR / Spatial**: 拡張現実・仮想現実・空間 UI の総称。 → [[30-Interface/AR-VR-Spatial]]
 - **Atomic Design**: UI を Atoms → Molecules → Organisms → Templates → Pages の階層で組む方法論。 → [[20-Design/Design-Systems]]
 - **async/await**: 非同期処理を同期的な見た目で書く構文。 → [[10-Coding/Concurrency-Async]]
@@ -30,14 +31,19 @@ aliases: [用語集]
 - **Blameless Postmortem**: 事故原因を人ではなくシステムに求める振り返り。 → [[40-Bridge/Critique-Culture]]
 - **Blue-Green Deployment**: 新環境を完全に立ち上げてから切替える戦略。 → [[10-Coding/CI-CD]]
 - **Brand Voice**: ブランドの不変の人格。トーンは状況で変わるが、ボイスは一定。 → [[20-Design/Brand-Voice]]
+- **Branded Type**: TypeScript で型エイリアスを強化し、誤代入を型レベルで防ぐ。 → [[10-Coding/Type-Systems-and-DDD]]
 - **Bridge (Bridge Notes)**: 本 Vault の**領域横断**ノート群。3 領域を貫くテーマ。 → [[40-Bridge/Bridge-Index]]
 - **Brutalist Design**: 露骨な構造・粗削りな表現を意図的に使う様式。 → [[20-Design/Editorial-Expressive-Layouts]]
 
 ## C
 
+- **Cache-Aside / Read-Through / Write-Through / Write-Behind**: キャッシュパターン。 → [[10-Coding/Caching-Strategies]]
+- **Cache Stampede**: 期限切れ瞬間に DB にリクエストが殺到する現象。 → [[10-Coding/Caching-Strategies]]
 - **Canary Deployment**: 少数トラフィックだけ新バージョンへ流す段階的リリース。 → [[10-Coding/CI-CD]]
+- **CAP 定理**: 分散システムで一貫性・可用性・分断耐性のうち 2 つしか同時に取れない。 → [[10-Coding/Edge-and-Distributed]]
 - **CDD (Component-Driven Development)**: コンポーネント単位で開発する方法。 → [[40-Bridge/Component-Driven-Development]]
 - **CI/CD (Continuous Integration/Delivery)**: 統合 → 提供を自動化するパイプライン。 → [[10-Coding/CI-CD]]
+- **Conversational UI**: 「選ぶ」から「話す」へ移行する設計。 → [[30-Interface/Conversational-UI]]
 - **CLS (Cumulative Layout Shift)**: レイアウトの飛び。Core Web Vitals の一つ。 → [[40-Bridge/Performance-as-UX]]
 - **Concurrency vs Parallelism**: 並行性 (進行中の能力) と並列性 (同時実行の能力) の区別。 → [[10-Coding/Concurrency-Async]]
 - **Confirmshaming**: 拒否ボタンに罪悪感を持たせるダークパターン。 → [[40-Bridge/Ethical-Design]]
@@ -58,6 +64,10 @@ aliases: [用語集]
 - **Diátaxis**: ドキュメントを Tutorial / How-to / Reference / Explanation の 4 種に分けるフレーム。 → [[40-Bridge/Documentation-as-Product]]
 - **DI (Dependency Injection)**: 依存を外から注入する手法。 → [[10-Coding/SOLID-Principles]]
 - **Direct Manipulation**: 対象を直接動かす操作モデル (ドラッグ・描画など)。 → [[30-Interface/Drawing-Direct-Manipulation]]
+- **Discriminated Union**: タグ付き和型。網羅性チェックが効く。 → [[10-Coding/Type-Systems-and-DDD]]
+- **Discovery (Product)**: 何を作るかを決めるフェーズ。検証中心。 → [[40-Bridge/Discovery-and-Validation]]
+- **Domain Event**: ドメインで起きた事実を値として表現。 → [[10-Coding/Type-Systems-and-DDD]]
+- **DORA Metrics**: Deploy Frequency / Lead Time / Change Failure Rate / MTTR の 4 指標。 → [[10-Coding/CI-CD]]
 - **Disagree and Commit**: 反対は最大限主張し、決まったら全力で支援する文化。 → [[40-Bridge/Critique-Culture]]
 - **DORA Metrics**: Deploy Frequency / Lead Time / Change Failure Rate / MTTR の 4 指標。 → [[10-Coding/CI-CD]]
 - **DRY (Don't Repeat Yourself)**: 知識の重複を避ける原則。
@@ -66,8 +76,10 @@ aliases: [用語集]
 ## E
 
 - **Easing**: アニメーションの緩急曲線。 → [[20-Design/Motion-System]]
+- **Edge Computing**: ユーザーに近いノードで計算する設計。 → [[10-Coding/Edge-and-Distributed]]
 - **Editorial Layout**: 雑誌・ポスター由来の表現的レイアウト。 → [[20-Design/Editorial-Expressive-Layouts]]
 - **Empty State**: データがない画面状態。設計対象の 1 つ。 → [[30-Interface/Onboarding-Empty-States]]
+- **Entity (DDD)**: ID で同一性が決まるオブジェクト。 → [[10-Coding/Type-Systems-and-DDD]]
 - **Event Sourcing**: 状態でなくイベント列を真実とするパターン。 → [[10-Coding/Architecture-Layers]]
 - **Expand → Migrate → Contract**: マイグレーションの基本ステップ。 → [[40-Bridge/Migrations-as-Product]]
 - **Expressive Range (表現の幅)**: 静的レイアウトを超える表現語彙の総称。本 Vault の専用カテゴリ。 → [[00-Index/MOC]]
@@ -76,6 +88,7 @@ aliases: [用語集]
 
 - **Facet (ファセット)**: 複数条件で結果を狭める検索 UI。 → [[30-Interface/Search-UX]]
 - **Feature Flag**: コードを「デプロイしてからリリース」するための切替機構。 → [[10-Coding/CI-CD]]
+- **File Management UX**: アップロード・整理・共有・検索のユーザー体験。 → [[30-Interface/File-Management-UX]]
 - **FIRST (テスト原則)**: Fast / Independent / Repeatable / Self-validating / Timely。 → [[10-Coding/Testing-Strategy]]
 - **Fitts's Law**: ターゲットへの到達時間は距離に比例しサイズに反比例。 → [[30-Interface/Mental-Models]]
 - **FLIP**: レイアウトアニメの技法 (First/Last/Invert/Play)。 → [[20-Design/Motion-System]]
@@ -87,6 +100,7 @@ aliases: [用語集]
 ## G
 
 - **g11n (Globalization)**: i18n + l10n の総体。 → [[40-Bridge/Internationalization]]
+- **Gamification**: ゲーム要素を非ゲーム文脈に取り入れる設計。 → [[30-Interface/Gamification]]
 - **Generative Design**: 規則で生成するアセット設計。 → [[20-Design/Generative-Procedural]]
 - **Gestalt**: 視覚要素のグルーピング法則 (近接・類似・連続・閉合・共通運命)。 → [[20-Design/Visual-Hierarchy]]
 - **Glassmorphism**: 半透明 + 背景ぼかしによる素材表現。 → [[20-Design/Material-Surfaces]]
@@ -113,11 +127,20 @@ aliases: [用語集]
 - **Inclusive Design**: 多様性を設計の入力にするアプローチ。 → [[40-Bridge/Inclusive-Design]]
 - **INP (Interaction to Next Paint)**: 入力→反応のレイテンシ。Core Web Vitals。 → [[40-Bridge/Performance-as-UX]]
 - **Intersection Observer**: 要素が視野に入ったかを検知する Web API。 → [[30-Interface/Scroll-Driven-Animations]]
+- **Isolate (V8)**: Cloudflare Workers 等で使われる軽量実行環境。 → [[10-Coding/Edge-and-Distributed]]
 
 ## J
 
+- **JTBD (Jobs To Be Done)**: ユーザーの「何かを雇う」動機を中心に置くフレーム。 → [[30-Interface/User-Research]] / [[40-Bridge/Discovery-and-Validation]]
+
+## J (続き)
+
 - **Jakob's Law**: ユーザーは他サイトと同じ動作を期待する。 → [[30-Interface/Mental-Models]]
-- **JTBD (Jobs To Be Done)**: ユーザーの「何かを雇う」動機を中心に置くフレーム。 → [[30-Interface/User-Research]]
+
+## K
+
+- **Kano モデル**: 機能を Basic / Performance / Excitement に分類。 → [[40-Bridge/Discovery-and-Validation]]
+- **Knowledge Management**: 個人・チーム・組織の知識を再利用可能な形に。 → [[40-Bridge/Knowledge-Management]]
 
 ## L
 
@@ -135,8 +158,15 @@ aliases: [用語集]
 - **Migration**: 段階的に新形式へ移す継続的プロセス。 → [[40-Bridge/Migrations-as-Product]]
 - **Microinteraction**: 小さな反応 (ホバー、押下感など)。 → [[30-Interface/Microinteractions]]
 - **MOC (Map of Content)**: 知識ネットワークの全体地図。 → [[00-Index/MOC]]
+- **MoSCoW**: Must / Should / Could / Won't have の優先度フレーム。 → [[40-Bridge/Roadmapping-Prioritization]]
 - **Motion Storytelling**: スクロール・遷移を物語装置にする設計。 → [[30-Interface/Motion-Storytelling]]
 - **MTTR (Mean Time To Recovery)**: 平均復旧時間。 → [[10-Coding/Observability]] / [[10-Coding/CI-CD]]
+
+## N
+
+- **Newtype**: 型レベルで単位を区別する手法 (`Cents`, `Yen` 等)。 → [[10-Coding/Type-Systems-and-DDD]]
+- **North Star Metric**: プロダクト全体が追う北極星指標。 → [[40-Bridge/Discovery-and-Validation]] / [[40-Bridge/Roadmapping-Prioritization]]
+- **Now / Next / Later**: 確度別の 3 段階ロードマップ。 → [[40-Bridge/Roadmapping-Prioritization]]
 
 ## N
 
@@ -144,18 +174,26 @@ aliases: [用語集]
 
 ## O
 
+- **Observable Plot / Vega-Lite**: 宣言的なデータ可視化ライブラリ。 → [[20-Design/Data-Visualization]]
 - **OKLCH**: 知覚均等な色空間。トークン設計で推奨。 → [[20-Design/Color-Theory]]
+- **OKR (Objectives & Key Results)**: Google 由来の目標管理フレーム。 → [[40-Bridge/Roadmapping-Prioritization]]
 - **OpenAPI**: REST API のスキーマ標準。Swagger / Redoc で文書化。 → [[10-Coding/API-Design]]
+- **Opportunity Solution Tree**: 機会と解決策を分離するディスカバリ手法 (Teresa Torres)。 → [[40-Bridge/Discovery-and-Validation]]
 - **OT (Operational Transformation)**: 同時編集の競合解消アルゴリズム (Google Docs)。 → [[30-Interface/Real-time-Collaboration]]
 - **Optical Sizing (`opsz`)**: サイズに応じてフォントデザインを最適化する軸。 → [[20-Design/Variable-Type-Expression]]
 - **Optimistic UI**: サーバー応答を待たず先に UI を更新する戦略。 → [[30-Interface/Interaction-Patterns]]
+- **Outbox Pattern**: DB 書き込みとメッセージ送信の整合性を担保。 → [[10-Coding/Edge-and-Distributed]]
 - **OWASP**: Web セキュリティの主要脅威集。 → [[10-Coding/Security]]
 
 ## P
 
 - **Parallax**: スクロール速度の異なる多層で奥行きを錯覚させる技法。 → [[30-Interface/Scroll-Driven-Animations]]
+- **PARA**: Projects / Areas / Resources / Archive の整理法 (Tiago Forte)。 → [[40-Bridge/Knowledge-Management]]
+- **PKM (Personal Knowledge Management)**: 個人レベルの知識管理。 → [[40-Bridge/Knowledge-Management]]
 - **Permissions UX**: 誰が・何を・どの範囲でできるかの設計。 → [[30-Interface/Permissions-UX]]
 - **Perlin / Simplex Noise**: 自然な揺らぎを作る擬似乱数。 → [[20-Design/Generative-Procedural]]
+- **Privacy by Design**: プライバシーを設計の前提にするアプローチ (Cavoukian)。 → [[40-Bridge/Privacy-by-Design]]
+- **Pseudonymization / Anonymization**: 仮名化と匿名化。 → [[40-Bridge/Privacy-by-Design]]
 - **PII (Personally Identifiable Information)**: 個人を特定できる情報。ログ流出注意。 → [[10-Coding/Security]] / [[10-Coding/Observability]]
 - **Pixel Snapping**: 整数 px へのスナップ。アイコン描画で重要。 → [[20-Design/Iconography]]
 - **PoLP (Principle of Least Privilege)**: 最小権限の原則。 → [[10-Coding/Security]]
@@ -173,6 +211,8 @@ aliases: [用語集]
 - **Race Condition**: 並行実行で順序依存の不整合が起きるバグ。 → [[10-Coding/Concurrency-Async]]
 - **RBAC / ABAC / ReBAC**: 認可モデル (役割/属性/関係)。 → [[10-Coding/Security]] / [[30-Interface/Permissions-UX]]
 - **RED (Rate/Errors/Duration)**: サービス監視の主要指標。 → [[10-Coding/Observability]]
+- **Replication / Sharding**: 複製と分割。分散 DB の基本。 → [[10-Coding/Edge-and-Distributed]]
+- **RICE スコアリング**: Reach × Impact × Confidence ÷ Effort で機能比較。 → [[40-Bridge/Discovery-and-Validation]]
 - **Reduced Motion**: モーションを抑える OS 設定。設計で尊重必須。 → [[30-Interface/Accessibility]]
 - **Reference Token / Semantic Token / Component Token**: デザイントークンの 3 階層。 → [[20-Design/Design-Tokens]]
 - **REST**: HTTP メソッドとリソース指向の API スタイル。 → [[10-Coding/API-Design]]
@@ -185,8 +225,12 @@ aliases: [用語集]
 
 ## S
 
+- **Saga パターン**: 長期トランザクションをローカル取引 + 補償で構成。 → [[10-Coding/Edge-and-Distributed]]
 - **Scrollytelling**: スクロールを物語装置にする手法。 → [[30-Interface/Motion-Storytelling]]
 - **Scroll-Driven Animation (CSS)**: JS なしでスクロール量に連動する CSS 機能。 → [[30-Interface/Scroll-Driven-Animations]]
+- **Self-Determination Theory**: 自律性・有能感・関係性の 3 動機。 → [[30-Interface/Gamification]]
+- **Service Worker**: ブラウザのバックグラウンドスクリプト。オフライン対応の基盤。 → [[10-Coding/Caching-Strategies]]
+- **SECI モデル**: 暗黙知と形式知の変換 (Nonaka)。 → [[40-Bridge/Knowledge-Management]]
 - **Shader (GLSL)**: GPU 上のピクセル/頂点計算プログラム。 → [[20-Design/Creative-Coding-Canvas-WebGL]]
 - **SLI / SLO / SLA**: サービスレベル指標 / 目標 / 契約。 → [[10-Coding/Observability]]
 - **Skeleton Screen**: 灰色プレースホルダで読み込み中を示す。 → [[30-Interface/Loading-States]]
@@ -203,10 +247,13 @@ aliases: [用語集]
 
 - **TDD (Test-Driven Development)**: Red→Green→Refactor のサイクル。 → [[10-Coding/Testing-Strategy]]
 - **Tech Debt**: 学んだことを反映していない状態。利息を生む。 → [[40-Bridge/Tech-Debt]]
+- **Team Topologies**: Stream-aligned / Platform / Enabling / Complicated Subsystem の 4 種チーム。 → [[40-Bridge/Roadmapping-Prioritization]]
 - **Three.js**: WebGL の高水準ライブラリ。3D の事実上標準。 → [[20-Design/Creative-Coding-Canvas-WebGL]]
 - **Thumb Zone**: 親指の届く範囲。モバイル設計の基礎。 → [[30-Interface/Mobile-Patterns]]
 - **Tone.js**: Web Audio の高水準ライブラリ (シンセ・音楽)。 → [[30-Interface/Audio-Voice-UX]]
 - **Tool Stacks**: 複数ツールの組み合わせレシピ。 → [[40-Bridge/Tool-Stacks-Recipes]]
+- **Type-Driven Development**: 型を先に書いて設計する手法。 → [[10-Coding/Type-Systems-and-DDD]]
+- **TV / Wearable / Embedded UI**: モバイル・デスクトップ以外の UI。 → [[30-Interface/Wearables-TV-Embedded]]
 - **Toast / Snackbar**: 短期通知 UI。 → [[30-Interface/Interaction-Patterns]] / [[30-Interface/Notifications]]
 - **Trace ID**: リクエストを横断的に追跡する識別子。 → [[10-Coding/Observability]]
 - **Trunk-Based Development**: 短命ブランチで main 近傍を維持する開発。 → [[10-Coding/Version-Control]] / [[10-Coding/CI-CD]]
@@ -214,13 +261,15 @@ aliases: [用語集]
 
 ## U
 
-- **Ubiquitous Language (ユビキタス言語)**: ドメイン全員で同じ語彙を使う。 → [[40-Bridge/Naming-as-Design]]
+- **Ubiquitous Language (ユビキタス言語)**: ドメイン全員で同じ語彙を使う。 → [[40-Bridge/Naming-as-Design]] / [[10-Coding/Type-Systems-and-DDD]]
 - **USE (Utilization/Saturation/Errors)**: リソース監視指標。 → [[10-Coding/Observability]]
 - **UX Writing**: UI 上の言葉の設計。 → [[30-Interface/UX-Writing]]
 
 ## V
 
+- **Value Object (DDD)**: ID を持たず値で等値判定するオブジェクト。 → [[10-Coding/Type-Systems-and-DDD]]
 - **Variable Font**: ウェイトを連続調整できるフォント形式。 → [[20-Design/Typography]] / [[20-Design/Variable-Type-Expression]]
+- **Video Codec (AV1/H.265/VP9/H.264)**: 動画圧縮フォーマット。 → [[20-Design/Video-Motion-Graphics]]
 - **View Transitions API**: ブラウザネイティブのページ遷移アニメ。 → [[20-Design/Motion-System]]
 - **Virtual Scroll (仮想スクロール)**: 表示領域分だけ DOM を生成する技法。 → [[30-Interface/Tables-Data-Grids]]
 - **Visual Hierarchy**: 視覚階層。何を最初に見せるか。 → [[20-Design/Visual-Hierarchy]]

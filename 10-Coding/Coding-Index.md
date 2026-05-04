@@ -20,17 +20,23 @@ domain: coding
 - [[Clean-Code]] — 命名・関数サイズ・コメントの作法
 - [[SOLID-Principles]] — オブジェクト設計の 5 原則
 - [[Naming]] — 命名は最重要のドキュメント
-- [[Functional-Programming]] — 純粋性・不変性・合成 ✨
+- [[Functional-Programming]] — 純粋性・不変性・合成
 
 ### 構造
 
 - [[Design-Patterns]] — 繰り返し現れる解の語彙
 - [[Architecture-Layers]] — 関心の分離と依存方向
-- [[API-Design]] — 他者が頼って動く契約
-- [[Database-Design]] — 最も書き換えにくいコード ✨
+- [[Type-Systems-and-DDD]] — 型でドメインを設計する ✨
 - [[Error-Handling]] — 失敗を一級市民として扱う
 - [[State-Management]] — 状態の所在と真実を設計する
-- [[Concurrency-Async]] — 並行性は同時に進める能力 ✨
+- [[Concurrency-Async]] — 並行性は同時に進める能力
+
+### データと境界
+
+- [[API-Design]] — 他者が頼って動く契約
+- [[Database-Design]] — 最も書き換えにくいコード
+- [[Caching-Strategies]] — 速度を買う契約 ✨
+- [[Edge-and-Distributed]] — ユーザーに近い計算 ✨
 
 ### 改善サイクル
 
@@ -43,7 +49,7 @@ domain: coding
 - [[Performance]] — 計測してから最適化
 - [[Security]] — 機能の質としてのセキュリティ
 - [[Observability]] — 内部状態を外側から推論可能に
-- [[CI-CD]] — 変更を素早く・安全に届ける装置 ✨
+- [[CI-CD]] — 変更を素早く・安全に届ける装置
 - [[Version-Control]] — 履歴は設計判断の証跡
 
 ## アンチパターン早見

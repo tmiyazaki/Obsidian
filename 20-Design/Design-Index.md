@@ -38,11 +38,13 @@ domain: design
 
 ### 表現の幅を広げる
 
-- [[Creative-Coding-Canvas-WebGL|クリエイティブコーディング]] — Canvas / WebGL / Three.js / Shader ✨
-- [[Generative-Procedural|生成的・手続き型デザイン]] — 規則で生成するアセット ✨
-- [[Editorial-Expressive-Layouts|編集的・表現的レイアウト]] — 雑誌・ポスター由来の語彙 ✨
-- [[Material-Surfaces|マテリアルとサーフェス]] — Glass / Gradient / Noise / Texture ✨
-- [[Variable-Type-Expression|可変フォントによるタイポ表現]] — 文字を動かす ✨
+- [[Creative-Coding-Canvas-WebGL|クリエイティブコーディング]] — Canvas / WebGL / Three.js / Shader
+- [[Generative-Procedural|生成的・手続き型デザイン]] — 規則で生成するアセット
+- [[Editorial-Expressive-Layouts|編集的・表現的レイアウト]] — 雑誌・ポスター由来の語彙
+- [[Material-Surfaces|マテリアルとサーフェス]] — Glass / Gradient / Noise / Texture
+- [[Variable-Type-Expression|可変フォントによるタイポ表現]] — 文字を動かす
+- [[Illustration-Photography|イラストと写真ディレクション]] — 視覚コンテンツの選択と統一 ✨
+- [[Video-Motion-Graphics|動画とモーショングラフィックス]] — 時間軸を持つデザイン ✨
 
 ## 学習の順序(推奨)
 
