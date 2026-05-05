@@ -35,8 +35,12 @@ domain: coding
 
 - [[API-Design]] — 他者が頼って動く契約
 - [[Database-Design]] — 最も書き換えにくいコード
-- [[Caching-Strategies]] — 速度を買う契約 ✨
-- [[Edge-and-Distributed]] — ユーザーに近い計算 ✨
+- [[Caching-Strategies]] — 速度を買う契約
+- [[Edge-and-Distributed]] — ユーザーに近い計算
+- [[Multi-tenancy]] — 1 アプリで複数組織 ✨
+- [[Schema-Driven-Stack]] — 1 スキーマから全生成 ✨
+- [[Embeddings-RAG]] — LLM に外部知識を持たせる ✨
+- [[Modern-Web-Platform]] — 2025-2026 の Web 標準 ✨
 
 ### 改善サイクル
 

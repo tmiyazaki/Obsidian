@@ -32,13 +32,19 @@ domain: cross-cutting
 
 - [[Tech-Debt|技術的負債のマネジメント]] — 借りていることを認識し戦略的に返す
 - [[Migrations-as-Product|プロダクトとしてのマイグレーション]] — 進化能力そのもの
-- [[Discovery-and-Validation|プロダクトディスカバリと検証]] — 何を作るか ✨
-- [[Roadmapping-Prioritization|ロードマッピングと優先順位付け]] — 学習計画としてのロードマップ ✨
-- [[Knowledge-Management|知識マネジメント]] — 個人 / チーム / 組織 ✨
+- [[Discovery-and-Validation|プロダクトディスカバリと検証]] — 何を作るか
+- [[Roadmapping-Prioritization|ロードマッピングと優先順位付け]] — 学習計画としてのロードマップ
+- [[Knowledge-Management|知識マネジメント]] — 個人 / チーム / 組織
 
-### 体験の質 (深化)
+### 体験の質
 
-- [[Privacy-by-Design|プライバシー・バイ・デザイン]] — データ最小化と透明性 ✨
+- [[Privacy-by-Design|プライバシー・バイ・デザイン]] — データ最小化と透明性
+
+### 新しいパラダイム
+
+- [[Local-First-Sync|ローカルファーストと同期エンジン]] — クラウドでなく端末が真実 ✨
+- [[AI-Augmented-Development|AI 支援開発]] — AI を組み込んだ開発フロー ✨
+- [[AI-Evaluation-Safety|AI 評価と安全性]] — Eval / Safety / Red Team ✨
 
 ### 表現の幅を広げる
 

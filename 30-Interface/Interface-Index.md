@@ -38,15 +38,22 @@ domain: interface
 - [[Tables-Data-Grids|テーブルとデータグリッド]] — 業務 SaaS の主役
 - [[Search-UX|検索 UX]] — ナビが届かない場所への近道
 - [[Dashboard-Design|ダッシュボード設計]] — 信号を集約して判断速度を最大化
-- [[File-Management-UX|ファイル管理 UX]] — 失わせない、見つけさせる、共有 ✨
-- [[AI-LLM-Interfaces|AI / LLM インターフェース]] — 確率的エージェントを信頼可能に
-- [[Conversational-UI|会話型 UI]] — 「選ぶ」から「話す」へ ✨
+- [[File-Management-UX|ファイル管理 UX]] — 失わせない、見つけさせる、共有
 
-### 設定・権限・動機
+### AI 時代の UI
+
+- [[AI-LLM-Interfaces|AI / LLM インターフェース]] — 確率的エージェントを信頼可能に
+- [[Conversational-UI|会話型 UI]] — 「選ぶ」から「話す」へ
+- [[Agentic-AI-Patterns|エージェント型 AI のパターン]] — 自律的に行動する AI ✨
+- [[Generative-Streaming-UI|生成的・ストリーミング UI]] — 進化する UI を見る ✨
+- [[Realtime-Multimodal-AI|リアルタイム・マルチモーダル AI]] — 音声・映像・テキストの並行対話 ✨
+
+### 設定・権限・動機・課金
 
 - [[Settings-Preferences|設定と環境設定]] — ユーザーが自分の体験を調整
 - [[Permissions-UX|権限 UX]] — 誰が・何を・どの範囲でできるか
-- [[Gamification|ゲーミフィケーション]] — 内発的動機を支える設計 ✨
+- [[Gamification|ゲーミフィケーション]] — 内発的動機を支える設計
+- [[Pricing-Monetization-UX|価格・課金 UX]] — 信頼で選ばせ、続けさせる ✨
 
 ### デバイスを超える
 
