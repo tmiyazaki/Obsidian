@@ -42,9 +42,17 @@ domain: cross-cutting
 
 ### 新しいパラダイム
 
-- [[Local-First-Sync|ローカルファーストと同期エンジン]] — クラウドでなく端末が真実 ✨
-- [[AI-Augmented-Development|AI 支援開発]] — AI を組み込んだ開発フロー ✨
-- [[AI-Evaluation-Safety|AI 評価と安全性]] — Eval / Safety / Red Team ✨
+- [[Local-First-Sync|ローカルファーストと同期エンジン]] — クラウドでなく端末が真実
+- [[AI-Augmented-Development|AI 支援開発]] — AI を組み込んだ開発フロー
+- [[AI-Evaluation-Safety|AI 評価と安全性]] — Eval / Safety / Red Team
+
+### 運用・組織・規制
+
+- [[Developer-Experience-DX|開発者体験 DX]] — 開発者にとっての UX ✨
+- [[Platform-Engineering|プラットフォームエンジニアリング]] — IDP として共通基盤を提供 ✨
+- [[Site-Reliability-Engineering|SRE]] — 信頼性をエンジニアリングする ✨
+- [[Growth-and-Retention|グロースとリテンション]] — AARRR + North Star ✨
+- [[Compliance-and-Regulations|コンプライアンスと規制]] — SOC2 / GDPR / HIPAA / EU AI Act ✨
 
 ### 表現の幅を広げる
 

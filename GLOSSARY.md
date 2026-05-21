@@ -319,7 +319,188 @@ aliases: [用語集]
 
 ## Z
 
+- **Zettelkasten**: カードに概念を書き相互引用する知識管理法 (Luhmann)。 → [[40-Bridge/Knowledge-Management]]
 - **Zod / Valibot / ArkType**: TypeScript 向けスキーマ・検証ライブラリ。 → [[10-Coding/Schema-Driven-Stack]]
+
+---
+
+## 追加用語 (深化版)
+
+### AARRR / Pirate Metrics
+
+Acquisition / Activation / Retention / Referral / Revenue のグロースファネル。 → [[40-Bridge/Growth-and-Retention]]
+
+### Bleed (裁ち落とし)
+
+印刷で仕上がりサイズの外側 3mm の塗り足し。 → [[20-Design/Email-and-Print]]
+
+### Bulletproof Button
+
+メール HTML で `<table>` + `<a>` で作る互換性ボタン。 → [[20-Design/Email-and-Print]]
+
+### Chaos Engineering
+
+故意に障害を起こし耐性を確認する手法。 → [[40-Bridge/Site-Reliability-Engineering]]
+
+### Choropleth
+
+地域を色濃度で塗る地図表現。 → [[20-Design/Information-Visualization-Theory]] / [[30-Interface/Maps-and-Geo-UX]]
+
+### Cleveland-McGill ランキング
+
+人間が量を正確に比較できる視覚要素の順位。 → [[20-Design/Information-Visualization-Theory]]
+
+### Cohort 分析
+
+ユーザーを登録時期等でグループ化して継続率を見る。 → [[40-Bridge/Growth-and-Retention]]
+
+### Compliance Frameworks
+
+SOC2 / GDPR / HIPAA / PCI-DSS / ISO 27001 等の認証・規制。 → [[40-Bridge/Compliance-and-Regulations]]
+
+### CSAT / NPS
+
+顧客満足度 / 推奨度の標準指標。 → [[30-Interface/Customer-Support-UX]]
+
+### Day-N Retention
+
+登録 N 日後の継続率。 → [[40-Bridge/Growth-and-Retention]]
+
+### Dyslexia (失読症)
+
+文字認識・処理の困難。設計でフォント・行間に配慮。 → [[30-Interface/Cognitive-Accessibility]]
+
+### DPA (Data Processing Agreement)
+
+第三者にデータ処理を委託する契約。GDPR で要求。 → [[40-Bridge/Compliance-and-Regulations]]
+
+### Error Budget
+
+SLO の未達分の許容範囲。リリース判断に使う。 → [[40-Bridge/Site-Reliability-Engineering]]
+
+### FOMO / 偽の希少性
+
+ダークパターン。「あと 1 室」などで急かす。 → [[40-Bridge/Ethical-Design]]
+
+### Geofence
+
+特定地理範囲への出入りでアクション。 → [[30-Interface/Maps-and-Geo-UX]]
+
+### Grammar of Graphics
+
+データ・エステティクス・geom・統計・スケール・座標の層でグラフを構成 (Wilkinson)。 → [[20-Design/Information-Visualization-Theory]]
+
+### IDP (Internal Developer Platform)
+
+社内開発者向けに提供される共通基盤。 → [[40-Bridge/Platform-Engineering]]
+
+### Incident Commander
+
+インシデント対応の統括ロール。 → [[40-Bridge/Site-Reliability-Engineering]]
+
+### Liquidity (マーケット流動性)
+
+「探したらすぐ見つかる」「出したらすぐ売れる」状態。 → [[30-Interface/Marketplace-Two-Sided]]
+
+### LTV / CAC
+
+顧客生涯価値 / 獲得コスト比。3 以上が SaaS の健全ライン。 → [[40-Bridge/Growth-and-Retention]]
+
+### Map / IDP / Paved Road
+
+舗装路 = サポート対象の標準パス、Off-road = 例外。 → [[40-Bridge/Platform-Engineering]]
+
+### Marketplace Liquidity
+
+需要と供給がスムーズにマッチングする状態。 → [[30-Interface/Marketplace-Two-Sided]]
+
+### Network Effects
+
+参加者が増えるほど価値が指数的に増す効果。 → [[30-Interface/Marketplace-Two-Sided]] / [[40-Bridge/Growth-and-Retention]]
+
+### Outbox Pattern
+
+DB 書込とメッセージ送信の整合性パターン。 → [[10-Coding/Edge-and-Distributed]] / [[10-Coding/Workflows-Background-Jobs]]
+
+### Pantone / PMS
+
+特色のインキ規格。ブランドカラーの正確再現。 → [[20-Design/Email-and-Print]]
+
+### Reactive (Signals / Streams)
+
+「値の変化に依存先が自動応答」する抽象。 → [[10-Coding/Reactive-Signals]]
+
+### Row-Level Security (RLS)
+
+行単位のアクセス制御。Postgres の機能。 → [[10-Coding/Multi-tenancy]]
+
+### Runbook
+
+「X が起きたらどう対応」の手順書。 → [[40-Bridge/Site-Reliability-Engineering]]
+
+### Saga パターン
+
+長期トランザクションをローカル取引 + 補償で構成。 → [[10-Coding/Edge-and-Distributed]] / [[10-Coding/Workflows-Background-Jobs]]
+
+### SOC2 / Type I / Type II
+
+サービス組織のセキュリティ・可用性等の監査基準。 → [[40-Bridge/Compliance-and-Regulations]]
+
+### Sparkline
+
+文章中に埋め込む小さなグラフ (Tufte)。 → [[20-Design/Information-Visualization-Theory]]
+
+### SPACE Framework
+
+開発者生産性の 5 軸 (Satisfaction/Performance/Activity/Communication/Efficiency)。 → [[40-Bridge/Developer-Experience-DX]]
+
+### Stickiness
+
+DAU/MAU 比。 → [[40-Bridge/Growth-and-Retention]]
+
+### Sub-processor
+
+第三者のデータ処理委託先。GDPR で開示要。 → [[40-Bridge/Compliance-and-Regulations]]
+
+### Temporal API
+
+JavaScript の新しい日時 API。`Date` の置換。 → [[10-Coding/Modern-Web-Platform]] / [[30-Interface/Calendar-and-Time-UX]]
+
+### Temporal (Workflow Engine)
+
+Uber 由来の永続実行ワークフローエンジン。 → [[10-Coding/Workflows-Background-Jobs]]
+
+### TTV (Time-to-Value)
+
+価値体感までの時間。短いほど定着率が高い。 → [[40-Bridge/Growth-and-Retention]]
+
+### Toil
+
+繰り返し・価値を生まない手作業。SRE で削減対象。 → [[40-Bridge/Site-Reliability-Engineering]]
+
+### Two-Sided Platform
+
+売り手と買い手の両者を持つマーケットプレイス。 → [[30-Interface/Marketplace-Two-Sided]]
+
+### Variable Font Axes
+
+wght / wdth / slnt / opsz 等のフォント軸。 → [[20-Design/Variable-Type-Expression]]
+
+### Vibe Coding
+
+「動けばいい」と AI に丸投げする開発の罠。 → [[40-Bridge/AI-Augmented-Development]]
+
+### View Transitions API
+
+ブラウザネイティブのページ遷移アニメ (SPA / MPA 両対応)。 → [[10-Coding/Modern-Web-Platform]] / [[20-Design/Motion-System]]
+
+### WebGPU
+
+ブラウザで GPU 計算 (3D + ML)。 → [[10-Coding/Modern-Web-Platform]] / [[20-Design/Creative-Coding-Canvas-WebGL]]
+
+### Workflow Engine
+
+多段階フローを永続実行するエンジン (Temporal / Inngest 等)。 → [[10-Coding/Workflows-Background-Jobs]]
 
 ## Y
 

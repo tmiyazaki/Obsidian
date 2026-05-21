@@ -26,10 +26,11 @@ domain: coding
 
 - [[Design-Patterns]] — 繰り返し現れる解の語彙
 - [[Architecture-Layers]] — 関心の分離と依存方向
-- [[Type-Systems-and-DDD]] — 型でドメインを設計する ✨
+- [[Type-Systems-and-DDD]] — 型でドメインを設計する
 - [[Error-Handling]] — 失敗を一級市民として扱う
 - [[State-Management]] — 状態の所在と真実を設計する
 - [[Concurrency-Async]] — 並行性は同時に進める能力
+- [[Reactive-Signals]] — 値が変わると依存先が自動更新 ✨
 
 ### データと境界
 
@@ -37,10 +38,16 @@ domain: coding
 - [[Database-Design]] — 最も書き換えにくいコード
 - [[Caching-Strategies]] — 速度を買う契約
 - [[Edge-and-Distributed]] — ユーザーに近い計算
-- [[Multi-tenancy]] — 1 アプリで複数組織 ✨
-- [[Schema-Driven-Stack]] — 1 スキーマから全生成 ✨
-- [[Embeddings-RAG]] — LLM に外部知識を持たせる ✨
-- [[Modern-Web-Platform]] — 2025-2026 の Web 標準 ✨
+- [[Multi-tenancy]] — 1 アプリで複数組織
+- [[Schema-Driven-Stack]] — 1 スキーマから全生成
+- [[Embeddings-RAG]] — LLM に外部知識を持たせる
+- [[Workflows-Background-Jobs]] — 長期非同期処理 ✨
+
+### モダン Web 基盤
+
+- [[Modern-Web-Platform]] — 2025-2026 の Web 標準
+- [[Build-Tools-Modern]] — Vite / Turbopack / Bun / WASM ✨
+- [[WebAssembly-Native-Web]] — JS の限界を超える計算 ✨
 
 ### 改善サイクル
 

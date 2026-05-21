@@ -18,10 +18,11 @@ domain: interface
 ### 原則と理解
 
 - [[UX-Principles|UX の基本原則]] — Norman・Nielsen 由来の指針
-- [[Mental-Models|メンタルモデルと認知負荷]] — ユーザーの頭の中の地図 ✨
+- [[Mental-Models|メンタルモデルと認知負荷]] — ユーザーの頭の中の地図
 - [[Accessibility|アクセシビリティ]] — WCAG / ARIA / 実装の基本
+- [[Cognitive-Accessibility|認知アクセシビリティ]] — ADHD・失読症・自閉・認知症への配慮 ✨
 - [[Information-Architecture|情報アーキテクチャ]] — 構造化と命名
-- [[User-Research|ユーザーリサーチ]] — 仮説を検証する活動 ✨
+- [[User-Research|ユーザーリサーチ]] — 仮説を検証する活動
 
 ### 振る舞い
 
@@ -39,6 +40,8 @@ domain: interface
 - [[Search-UX|検索 UX]] — ナビが届かない場所への近道
 - [[Dashboard-Design|ダッシュボード設計]] — 信号を集約して判断速度を最大化
 - [[File-Management-UX|ファイル管理 UX]] — 失わせない、見つけさせる、共有
+- [[Maps-and-Geo-UX|地図と位置情報 UX]] — 世界を見せる窓 ✨
+- [[Calendar-and-Time-UX|カレンダー・日付・時間 UX]] — タイムゾーン地獄を解く ✨
 
 ### AI 時代の UI
 
@@ -53,7 +56,9 @@ domain: interface
 - [[Settings-Preferences|設定と環境設定]] — ユーザーが自分の体験を調整
 - [[Permissions-UX|権限 UX]] — 誰が・何を・どの範囲でできるか
 - [[Gamification|ゲーミフィケーション]] — 内発的動機を支える設計
-- [[Pricing-Monetization-UX|価格・課金 UX]] — 信頼で選ばせ、続けさせる ✨
+- [[Pricing-Monetization-UX|価格・課金 UX]] — 信頼で選ばせ、続けさせる
+- [[Marketplace-Two-Sided|マーケットプレイス / 両面 PF]] — 鶏卵問題と信頼形成 ✨
+- [[Customer-Support-UX|カスタマーサポート UX]] — 困った時の体験 ✨
 
 ### デバイスを超える
 

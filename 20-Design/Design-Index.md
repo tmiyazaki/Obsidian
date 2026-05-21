@@ -35,6 +35,8 @@ domain: design
 ### 応用
 
 - [[Data-Visualization|データビジュアライゼーション]] — 数値を視覚に変換する
+- [[Information-Visualization-Theory|情報視覚化の理論]] — 知覚科学とグラフ文法 ✨
+- [[Email-and-Print|メール HTML と印刷デザイン]] — Web 外の表現 ✨
 
 ### 表現の幅を広げる
 

@@ -30,7 +30,9 @@ aliases: [Map of Content, 全体地図]
 - 🌱 [[Learning-Paths|学習経路]] ─ 役割別の読む順
 - 🍱 [[Recipes|レシピ集]] ─ 「X を作る」エンドツーエンド
 - 🔁 [[Patterns-Catalog|パターン目録]] ─ 領域横断の共通パターン語彙
-- 📖 [[../GLOSSARY|用語集]] ─ 約 100 用語のクロスリファレンス
+- 🚨 [[Antipatterns-Catalog|アンチパターン目録]] ─ よくある失敗の逆引き ✨
+- 📚 [[Bibliography|参考文献集]] ─ 領域別の推奨書籍 ✨
+- 📖 [[../GLOSSARY|用語集]] ─ 約 150 用語のクロスリファレンス
 - 📝 [[../Templates/Skill-Template|テンプレート]] ─ 新規ノート用
 
 ## 1. コーディング (Coding)
@@ -61,15 +63,19 @@ aliases: [Map of Content, 全体地図]
 - [[10-Coding/API-Design|API 設計]]
 - [[10-Coding/Database-Design|データベース設計]]
 - [[10-Coding/State-Management|状態管理]]
+- [[10-Coding/Reactive-Signals|リアクティブと Signals]] ✨
 - [[10-Coding/Caching-Strategies|キャッシング戦略]]
 - [[10-Coding/Edge-and-Distributed|エッジと分散システム]]
-- [[10-Coding/Multi-tenancy|マルチテナンシー]] ✨
-- [[10-Coding/Schema-Driven-Stack|Schema-Driven な型安全スタック]] ✨
-- [[10-Coding/Embeddings-RAG|Embeddings と RAG]] ✨
+- [[10-Coding/Multi-tenancy|マルチテナンシー]]
+- [[10-Coding/Schema-Driven-Stack|Schema-Driven な型安全スタック]]
+- [[10-Coding/Embeddings-RAG|Embeddings と RAG]]
+- [[10-Coding/Workflows-Background-Jobs|ワークフローとバックグラウンドジョブ]] ✨
 
 ### モダン Web 基盤
 
-- [[10-Coding/Modern-Web-Platform|モダン Web プラットフォーム]] — 2025-2026 標準 ✨
+- [[10-Coding/Modern-Web-Platform|モダン Web プラットフォーム]]
+- [[10-Coding/Build-Tools-Modern|モダンビルドツール]] ✨
+- [[10-Coding/WebAssembly-Native-Web|WebAssembly とネイティブ Web]] ✨
 
 ### 大規模・運用
 
@@ -107,8 +113,10 @@ aliases: [Map of Content, 全体地図]
 - [[20-Design/Editorial-Expressive-Layouts|編集的・表現的レイアウト]]
 - [[20-Design/Material-Surfaces|マテリアルとサーフェス]]
 - [[20-Design/Variable-Type-Expression|可変フォントによるタイポ表現]]
-- [[20-Design/Illustration-Photography|イラストと写真ディレクション]] ✨
-- [[20-Design/Video-Motion-Graphics|動画とモーショングラフィックス]] ✨
+- [[20-Design/Illustration-Photography|イラストと写真ディレクション]]
+- [[20-Design/Video-Motion-Graphics|動画とモーショングラフィックス]]
+- [[20-Design/Information-Visualization-Theory|情報視覚化の理論]] ✨
+- [[20-Design/Email-and-Print|メール HTML と印刷デザイン]] ✨
 
 ## 3. インターフェース設計 (Interface Design)
 
@@ -119,6 +127,7 @@ aliases: [Map of Content, 全体地図]
 - [[30-Interface/UX-Principles|UX の基本原則]]
 - [[30-Interface/Mental-Models|メンタルモデルと認知負荷]]
 - [[30-Interface/Accessibility|アクセシビリティ]]
+- [[30-Interface/Cognitive-Accessibility|認知アクセシビリティ]] ✨
 - [[30-Interface/Information-Architecture|情報アーキテクチャ]]
 - [[30-Interface/User-Research|ユーザーリサーチ]]
 
@@ -138,6 +147,8 @@ aliases: [Map of Content, 全体地図]
 - [[30-Interface/Search-UX|検索 UX]]
 - [[30-Interface/Dashboard-Design|ダッシュボード設計]]
 - [[30-Interface/File-Management-UX|ファイル管理 UX]]
+- [[30-Interface/Maps-and-Geo-UX|地図と位置情報 UX]] ✨
+- [[30-Interface/Calendar-and-Time-UX|カレンダー・日付・時間 UX]] ✨
 
 ### AI 時代の UI ✨
 
@@ -152,7 +163,9 @@ aliases: [Map of Content, 全体地図]
 - [[30-Interface/Settings-Preferences|設定と環境設定]]
 - [[30-Interface/Permissions-UX|権限 UX]]
 - [[30-Interface/Gamification|ゲーミフィケーション]]
-- [[30-Interface/Pricing-Monetization-UX|価格・課金 UX]] ✨
+- [[30-Interface/Pricing-Monetization-UX|価格・課金 UX]]
+- [[30-Interface/Marketplace-Two-Sided|マーケットプレイス / 両面 PF]] ✨
+- [[30-Interface/Customer-Support-UX|カスタマーサポート UX]] ✨
 
 ### 環境と言葉
 
@@ -203,11 +216,19 @@ aliases: [Map of Content, 全体地図]
 - [[40-Bridge/Roadmapping-Prioritization|ロードマッピングと優先順位付け]]
 - [[40-Bridge/Knowledge-Management|知識マネジメント]]
 
-### 新しいパラダイム ✨
+### 新しいパラダイム
 
-- [[40-Bridge/Local-First-Sync|ローカルファーストと同期エンジン]] ✨
-- [[40-Bridge/AI-Augmented-Development|AI 支援開発]] ✨
-- [[40-Bridge/AI-Evaluation-Safety|AI 評価と安全性]] ✨
+- [[40-Bridge/Local-First-Sync|ローカルファーストと同期エンジン]]
+- [[40-Bridge/AI-Augmented-Development|AI 支援開発]]
+- [[40-Bridge/AI-Evaluation-Safety|AI 評価と安全性]]
+
+### 運用・組織・規制 ✨
+
+- [[40-Bridge/Developer-Experience-DX|開発者体験 DX]] ✨
+- [[40-Bridge/Platform-Engineering|プラットフォームエンジニアリング]] ✨
+- [[40-Bridge/Site-Reliability-Engineering|SRE]] ✨
+- [[40-Bridge/Growth-and-Retention|グロースとリテンション]] ✨
+- [[40-Bridge/Compliance-and-Regulations|コンプライアンスと規制]] ✨
 
 ### 表現の幅 (Expressive Range)
 
